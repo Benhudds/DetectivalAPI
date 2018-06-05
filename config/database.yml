@@ -84,3 +84,4 @@ production:
   <<: *default
   database: detectival
   url: <%= ENV['POSTGRESQL_URL'] %>
+  host: localhost
