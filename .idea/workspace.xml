@@ -27,8 +27,8 @@
       <file leaf-file-name="database.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="69" column="71" lean-forward="true" selection-start-line="69" selection-start-column="71" selection-end-line="69" selection-end-column="71" />
+            <state relative-caret-position="677">
+              <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -209,12 +209,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528212392154</updated>
-      <workItem from="1528212395422" duration="3417000" />
+      <workItem from="1528212395422" duration="4030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3417000" />
+    <option name="totallyTimeSpent" value="4030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1447" extended-state="0" />
@@ -314,8 +314,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="69" column="71" lean-forward="true" selection-start-line="69" selection-start-column="71" selection-end-line="69" selection-end-column="71" />
+        <state relative-caret-position="677">
+          <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
         </state>
       </provider>
     </entry>

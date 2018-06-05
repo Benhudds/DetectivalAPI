@@ -82,7 +82,5 @@ test:
 #
 production:
   <<: *default
-  database: detectival
-  username: myapp
-  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
+  url: <%= ENV['POSTGRESQL_URL'] %>
 
