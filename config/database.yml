@@ -82,6 +82,5 @@ test:
 #
 production:
   <<: *default
-  database: untitled2_production
-  username: DetectivalAPI
-  password: <%= ENV['UNTITLED2_DATABASE_PASSWORD'] %>
+  database: detectival
+  url: <%= ENV['POSTGRESQL_URL'] %>
