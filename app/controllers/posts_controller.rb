@@ -3,13 +3,13 @@ class PostsController < ApplicationController
 
   # GET /posts
   def index
-    @posts = Post.all
+    @posts = current_user.posts
     json_response(@posts)
   end
 
   # POST /posts
   def create
-    @post = Post.create!(post_params)
+    @post = current_user.posts.create!(post_params)
     json_response(@post, :created)
   end
 
@@ -34,7 +34,7 @@ class PostsController < ApplicationController
 
   def post_params
     #whitelist params
-    params.permit(:text, :created_by)
+    params.permit(:text)
   end
 
   def set_post
